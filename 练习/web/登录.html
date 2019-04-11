@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>登录</title>
+        <link type="text/css" rel="stylesheet" href="../css/登录.css">
+
+    </head>
+
+    <body>
+        <header>
+            <!--<ul id="top">
+                <li ><a href="登录.html">登录</a></li>
+                <li ><a href="注册.html">注册</a></li>
+            </ul>
+        </header>-->
+        <div id="card" >
+            <!--<div id="card-head">未完成-->
+            <div id="card-content" >
+                <div id="content-top">
+                    <ul>
+                        <li class="left">密码登录</li>
+                        <li class="right">扫码登录</li>
+                    </ul><br>
+                <div id="content-inner" >
+                    <h1 >登录</h1>
+                    <form id="login" action="?" method="POST" onsubmit="return check_username()">
+                        <p >
+                            <img src="../images/logo.png">                                                 
+                        </p>
+                        <div class="form-group">
+                        <label class="floating-label">邮箱</label>
+                        <input id="username" type="text" 
+                        data-rule='pattern:"^[a-zA-Z0-9]$"|maxlength: 18 |minlength: 6 |nullable:false|''>
+                        </div>
+                        <div class="form-group">
+                        <label class="floating-label">密码</label>
+                        <input id="password"  type="password" >
+                        </div>
+                        <input type="checkbox" name="remember" value="yes">记住我
+                        <p align="center"><input type="submit"></p>
+                    </form>
+                </div>
+            </div>>
+        </div>
+    </div>
+    <script type="text/javascript "src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript "src="..\js\validator.js"></script>
+    <script tpye="text/javascript "src="..\js\input.js"></script>
+    <script type="text/javascript "src="..\js\main.js"></script>
+    </body>
+</html>

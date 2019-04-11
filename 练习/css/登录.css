@@ -1,0 +1,77 @@
+body{
+   
+    background-image: url(../images/神社2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/*
+header {
+    background-color: #53393e;
+    padding: 1.5em;
+    margin-bottom: 0;
+    margin-top: 0;
+} 
+
+header ul li{
+    list-style-type: none;
+    padding-right:1em;
+}
+
+header ul a{
+    
+}*/
+
+#card{
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 50%;
+    
+}
+
+#card ul li{
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+
+#content-inner{
+
+}
+
+.floating-label {
+    cursor: text;
+    font-size: 14px;
+    line-height: 1;
+    float: left;
+    padding: 0;
+    top: 11px;
+    
+}
+
+input.type{
+    border: 0 0 0 5px rgba(0,0,0,.12);
+    display: block;
+    font-size: 1.2em;
+    width: 80%;
+    margin-left:1em;
+    margin-right:1em;
+    
+}
+
+div.form-group{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#card {
+    background-color: white;
+    text-align: center;
+    margin:20% 20% 20% 20% auto;
+}
